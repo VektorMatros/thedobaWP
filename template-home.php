@@ -172,7 +172,7 @@ if( empty($_GET['type']) || (!empty($_GET['type']) && ($hide_slider[0] != 'Yes')
 							}
 
 							// base query arguments for home page properties
-							$asdee = 30; // Вывод квартир на главной
+							$asdee = 50; // Вывод квартир на главной
 							$search_args = array(
 										'post_type' => 'property',
 										'posts_per_page' => $asdee,
