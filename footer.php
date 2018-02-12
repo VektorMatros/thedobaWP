@@ -94,9 +94,7 @@
 		<script type="text/javascript">
 		jQuery(document).ready(function(){
 
-		/*-----------------------------------------------------------------------------------*/
-		/*	Search Slider in Footer -- Settings can be changed from theme options
-		/*-----------------------------------------------------------------------------------*/
+//Comment
 			<?php
 			if (isset($_GET['min_price']) &&  isset($_GET['max_price'])) {
 				?>
